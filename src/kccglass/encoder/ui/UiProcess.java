@@ -79,7 +79,7 @@ public class UiProcess implements ActionListener{
 							//
 						}
 					}else {
-						encoderUi.getTa1().setText("※KCC글라스 AD, 그룹웨어에 지정되는 암호화된 password 를\n확인하는 용도로 사용\n\n입력한 텍스트 암호를 암호화한 결과를 출력합니다.\n**암호화 방식 : AES256, BASE64");
+						encoderUi.getTa1().setText("※지정되는 암호화된 password 를\n확인하는 용도로 사용\n\n입력한 텍스트 암호를 암호화한 결과를 출력합니다.\n**암호화 방식 : AES256, BASE64");
 					}
 				}
 			
