@@ -71,7 +71,7 @@ public class EncoderUi extends JFrame{
 						
 		ta1 = new JTextArea("", 10, 33);
 		ta1.setEditable(false);
-		ta1.setText("※KCC글라스 AD, 그룹웨어에 지정되는 암호화된 password 를\n확인하는 용도로 사용\n\n입력한 텍스트 암호를 암호화한 결과를 출력합니다.\n**암호화 방식 : AES256, BASE64");
+		ta1.setText("※지정되는 암호화된 password 를\n확인하는 용도로 사용\n\n입력한 텍스트 암호를 암호화한 결과를 출력합니다.\n**암호화 방식 : AES256, BASE64");
 		
 		// 하단패널 출력창 스크롤 연결 (overflow = scroll)
 		JScrollPane scroll = new JScrollPane(ta1);
